@@ -56,26 +56,50 @@ nav a{
 /* addes header style */
 .header-style{
     background-color:#FFF8F3 ;
-}
-/* added banner */
-.banner{
-    padding:30px 30px 30px 200px;
-    display: flex;
-    align-items: center;
     background-image: url('../portfolio-resources/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
-/* banner header style */
+/* added banner */
+.banner{
+    padding:30px 30px 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+ 
+}
+/* added banner container */
+.banner-container{
+    max-width: 500px;
+}
+/* added banner header-style */
+.banner-header{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    color:#181818;
+    font-weight: 700;
+    font-size: 85px;
+    margin-top: 5px;
+  
+}
+.banner .banner-des{
+    font-size: 18px;
+    font-weight: 400;
+
+    margin-top: -40px;
+
+    
+}
+
 
 .banner .profile-pic{
     width: 500px;
-    
- 
-
-}
-.banner-des{
-    font-size: 18px;
-    font-weight: 400;
+    float: right;
+     
 }
 
