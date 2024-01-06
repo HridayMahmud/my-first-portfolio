@@ -31,6 +31,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0px 200px;
  
 }
 /* letterstyle */
@@ -51,5 +52,30 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+/* addes header style */
+.header-style{
+    background-color:#FFF8F3 ;
+}
+/* added banner */
+.banner{
+    padding:30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+    background-image: url('../portfolio-resources/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+/* banner header style */
+
+.banner .profile-pic{
+    width: 500px;
+    
+ 
+
+}
+.banner-des{
+    font-size: 18px;
+    font-weight: 400;
 }
 
