@@ -109,10 +109,12 @@ background: #FFF8F3;
 text-align: center;
 width: 50%;
 margin: 0 auto;
-padding:150px 150px;
+padding:130px 150px;
 margin-top: 130px;
 border-radius: 10px;
-
+color:  #757575;
+font-size: 18px;
+font-weight: 400;
 }
 .about-title-style{
  color:  #181818;
@@ -134,10 +136,33 @@ footer >ul{
     margin-right: 10px;
   
 }
-
+footer p{
+    color: #757575;
+    margin-bottom: 0px;
+    margin-bottom: px;
+}
 footer li{
     list-style: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+  
 }
 footer a{
     text-decoration: none;
+    color: #474747;
+    
+
+}
+.whatIdo{
+
+text-align: center;
+
+margin: 0 auto;
+padding:0px 150px;
+margin-top: 130px;
+color:  #757575;
+font-size: 18px;
+max-width: 50%;
+font-weight: 400;
 }
