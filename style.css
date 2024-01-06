@@ -102,4 +102,42 @@ nav a{
     float: right;
      
 }
+/* about section added */
+.about{
+border-radius: 10px;
+background: #FFF8F3;
+text-align: center;
+width: 50%;
+margin: 0 auto;
+padding:150px 150px;
+margin-top: 130px;
+border-radius: 10px;
 
+}
+.about-title-style{
+ color:  #181818;
+font-size: 35px;
+font-weight: 700;
+
+}
+/* added about-des-style */
+.about-des-style{
+   color:  #757575;
+   font-size: 18px;
+   font-weight: 400;
+}
+/* added footer style */
+
+footer >ul{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+  
+}
+
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+}
