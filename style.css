@@ -107,7 +107,7 @@ nav a{
 border-radius: 10px;
 background: #FFF8F3;
 text-align: center;
-width: 50%;
+max-width:940px;
 margin: 0 auto;
 padding:130px 150px;
 margin-top: 130px;
@@ -157,7 +157,6 @@ footer a{
 .whatIdo{
 
 text-align: center;
-
 margin: 0 auto;
 padding:0px 150px;
 margin-top: 130px;
@@ -165,4 +164,69 @@ color:  #757575;
 font-size: 18px;
 max-width: 50%;
 font-weight: 400;
+}
+
+.card{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 30px 0px 30px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 100%;
+
+}
+.developer{
+    display: flex;
+    justify-content:center;
+    padding:130px 150px;
+    margin-top: 20px; 
+    width:1240px;
+    gap:24px;
+    margin: 0 auto;
+    
+    
+}
+.title{
+    color:#181818;
+    font-size: 20px;
+    font-weight: 700;
+}
+.description{
+    color:#757575;
+    font-size: 16px;
+    font-size: 400;
+}
+.summary{
+    text-align: center;
+}
+.section-des{
+    text-align: left;
+    display: flex;
+    width:1240px;
+    justify-content: center;
+    margin: 0 auto;
+    padding:130px 150px;
+    gap: 20px;
+  
+}
+.title-style{
+    font-size: 30;
+    font-weight:700 ;
+    color:#474747;
+}
+.degree-style{
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.institution_style{
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+.description-style{
+    color:#757575;
+    font-size: 16px;
+    font-weight: 400px;
 }
