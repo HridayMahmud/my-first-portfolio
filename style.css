@@ -197,8 +197,16 @@ font-weight: 400;
     font-size: 16px;
     font-size: 400;
 }
-.summary{
+.section-title{
     text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    color: #181818;
+    margin-top: 100px;
+    
+}
+.summary{
+    background-color: lightgray;
 }
 .section-des{
     text-align: left;
@@ -229,4 +237,5 @@ font-weight: 400;
     color:#757575;
     font-size: 16px;
     font-weight: 400px;
+
 }
